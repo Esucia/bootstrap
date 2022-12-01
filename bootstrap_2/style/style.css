@@ -1,0 +1,25 @@
+.main {
+    background-image: url(../image/car1.jpg);
+    max-width: 550vw;
+    background-repeat: no-repeat;
+    min-height: 140vh;
+    background-size: cover;
+
+}
+
+.img { 
+    width:90%; 
+    z-index: 0;  } 
+     
+.text-over-img { 
+    z-index:1; 
+    font-size: 1.2em; 
+    margin-top: -110px; 
+    margin-left: 100px;
+} 
+.nav-link:hover {
+    color: aqua;
+}
+.nav-link.active:hover {
+    color: aqua;
+}
